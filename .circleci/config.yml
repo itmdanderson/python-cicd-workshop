@@ -42,9 +42,6 @@ jobs:
       # other common Python testing frameworks include pytest and nose
       # https://pytest.org
       # https://nose.readthedocs.io
-      - run:
-          name: Run Tests
-          command: ~/.local/bin/pytest
 
       - store_artifacts:
           path: test-reports
